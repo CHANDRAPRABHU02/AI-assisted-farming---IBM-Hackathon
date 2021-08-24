@@ -1,0 +1,12 @@
+.custom_input_label {
+  font-size: large;
+}
+.my-short-description {
+  padding-top: 9px;
+  float: none;
+}
+.my-info-icon {
+  /* background-color: black; */
+  /* width: 100px; */
+  float: right;
+}
