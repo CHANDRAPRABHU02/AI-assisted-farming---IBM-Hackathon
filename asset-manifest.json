@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/css/main.c5c00fef.chunk.css",
-    "main.js": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/main.fddf4288.chunk.js",
-    "main.js.map": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/main.fddf4288.chunk.js.map",
-    "runtime-main.js": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/runtime-main.3f2bf17c.js",
-    "runtime-main.js.map": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/runtime-main.3f2bf17c.js.map",
-    "static/css/2.491407a0.chunk.css": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/css/2.491407a0.chunk.css",
-    "static/js/2.3aadd1fe.chunk.js": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/2.3aadd1fe.chunk.js",
-    "static/js/2.3aadd1fe.chunk.js.map": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/2.3aadd1fe.chunk.js.map",
-    "static/js/3.49927a4a.chunk.js": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/3.49927a4a.chunk.js",
-    "static/js/3.49927a4a.chunk.js.map": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/3.49927a4a.chunk.js.map",
-    "index.html": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/index.html",
-    "static/css/2.491407a0.chunk.css.map": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/css/2.491407a0.chunk.css.map",
-    "static/css/main.c5c00fef.chunk.css.map": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/css/main.c5c00fef.chunk.css.map",
-    "static/js/2.3aadd1fe.chunk.js.LICENSE.txt": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/js/2.3aadd1fe.chunk.js.LICENSE.txt",
-    "static/media/info-circle-fill.svg": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/media/info-circle-fill.55475f7b.svg",
-    "static/media/info-circle.svg": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/media/info-circle.b8b4fd48.svg",
-    "static/media/loaderGif1.ece48b52.gif": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/media/loaderGif1.ece48b52.gif",
-    "static/media/notifications.css": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/media/notification.c5d9251e.ttf",
-    "static/media/online.3911f841.gif": "/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming/static/media/online.3911f841.gif"
+    "main.css": "/AI-assisted-farming---IBM-Hackathon/static/css/main.c5c00fef.chunk.css",
+    "main.js": "/AI-assisted-farming---IBM-Hackathon/static/js/main.aad56238.chunk.js",
+    "main.js.map": "/AI-assisted-farming---IBM-Hackathon/static/js/main.aad56238.chunk.js.map",
+    "runtime-main.js": "/AI-assisted-farming---IBM-Hackathon/static/js/runtime-main.3a13307f.js",
+    "runtime-main.js.map": "/AI-assisted-farming---IBM-Hackathon/static/js/runtime-main.3a13307f.js.map",
+    "static/css/2.d83d75c6.chunk.css": "/AI-assisted-farming---IBM-Hackathon/static/css/2.d83d75c6.chunk.css",
+    "static/js/2.7f2ae49d.chunk.js": "/AI-assisted-farming---IBM-Hackathon/static/js/2.7f2ae49d.chunk.js",
+    "static/js/2.7f2ae49d.chunk.js.map": "/AI-assisted-farming---IBM-Hackathon/static/js/2.7f2ae49d.chunk.js.map",
+    "static/js/3.075328b7.chunk.js": "/AI-assisted-farming---IBM-Hackathon/static/js/3.075328b7.chunk.js",
+    "static/js/3.075328b7.chunk.js.map": "/AI-assisted-farming---IBM-Hackathon/static/js/3.075328b7.chunk.js.map",
+    "index.html": "/AI-assisted-farming---IBM-Hackathon/index.html",
+    "static/css/2.d83d75c6.chunk.css.map": "/AI-assisted-farming---IBM-Hackathon/static/css/2.d83d75c6.chunk.css.map",
+    "static/css/main.c5c00fef.chunk.css.map": "/AI-assisted-farming---IBM-Hackathon/static/css/main.c5c00fef.chunk.css.map",
+    "static/js/2.7f2ae49d.chunk.js.LICENSE.txt": "/AI-assisted-farming---IBM-Hackathon/static/js/2.7f2ae49d.chunk.js.LICENSE.txt",
+    "static/media/info-circle-fill.svg": "/AI-assisted-farming---IBM-Hackathon/static/media/info-circle-fill.55475f7b.svg",
+    "static/media/info-circle.svg": "/AI-assisted-farming---IBM-Hackathon/static/media/info-circle.b8b4fd48.svg",
+    "static/media/loaderGif1.ece48b52.gif": "/AI-assisted-farming---IBM-Hackathon/static/media/loaderGif1.ece48b52.gif",
+    "static/media/notifications.css": "/AI-assisted-farming---IBM-Hackathon/static/media/notification.c5d9251e.ttf",
+    "static/media/online.3911f841.gif": "/AI-assisted-farming---IBM-Hackathon/static/media/online.3911f841.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f2bf17c.js",
-    "static/css/2.491407a0.chunk.css",
-    "static/js/2.3aadd1fe.chunk.js",
+    "static/js/runtime-main.3a13307f.js",
+    "static/css/2.d83d75c6.chunk.css",
+    "static/js/2.7f2ae49d.chunk.js",
     "static/css/main.c5c00fef.chunk.css",
-    "static/js/main.fddf4288.chunk.js"
+    "static/js/main.aad56238.chunk.js"
   ]
 }
