@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Crop_recommendation from "./crop_recommendation";
+import CheckStatus from "./checkStatus";
 import Homepage from "./homepage";
 import Navbar from "./navbar";
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
             exact
             component={Crop_recommendation}
           />
+          <Route path="/status" exact component={CheckStatus} />
         </div>
       </Router>
     );

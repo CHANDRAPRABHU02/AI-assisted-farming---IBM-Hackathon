@@ -9,7 +9,6 @@ import {
   NotificationContainer,
   NotificationManager,
 } from "react-notifications";
-const FormData = require("form-data");
 
 const contentInput = [
   {
@@ -56,6 +55,30 @@ const contentInput = [
   },
 ];
 const API_KEY = "B1mo3gmGszh2wXROK6WnFupr8N8bSqXpkm1nJoVhMR_5";
+const ansMap = {
+  0: "apple",
+  1: "banana",
+  2: "blackgram",
+  3: "chickpea",
+  4: "coconut",
+  5: "coffee",
+  6: "cotton",
+  7: "grapes",
+  8: "jute",
+  9: "kidneybeans",
+  10: "lentil",
+  11: "maize",
+  12: "mango",
+  13: "mothbeans",
+  14: "mungbean",
+  15: "muskmelon",
+  16: "orange",
+  17: "papaya",
+  18: "pigeonpeas",
+  19: "pomegranate",
+  20: "rice",
+  21: "watermelon",
+};
 
 class Crop_recommendation extends Component {
   state = {
@@ -114,30 +137,7 @@ class Crop_recommendation extends Component {
   };
   handleSubmit = () => {
     console.log(this.state.value);
-    if (this.validateInput()) {
-      const form = new FormData();
-      form.append("apikey", API_KEY);
-      form.append("grant_type", "urn:ibm:params:oauth:grant-type:apikey");
-      axios
-        .post("https://iam.cloud.ibm.com/identity/token", form, {
-          headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-            Accept: "application/json",
-            mode: "cors",
-            // "Access-Control-Allow-Origin": "*",
-            "Access-Control-Allow-Origin": "http://localhost:3000",
-            "Access-Control-Allow-Headers":
-              "Origin, X-Requested-With, Content-Type, Accept",
-          },
-        })
-        .then((res) => {
-          console.log(res);
-        })
-        .catch((error) => {
-          NotificationManager.warning("Wrong Api Key");
-          console.log(error);
-        });
-    } else {
+    if (this.validateInput() || true) {
       const payload_scoring = {
         input_data: [
           {
@@ -161,6 +161,7 @@ class Crop_recommendation extends Component {
         .post("http://localhost:5000/cors", payload_scoring)
         .then((res) => {
           console.log(res);
+          console.log(ansMap[res.data[0]]);
         })
         .catch((err) => {
           console.log(err);
