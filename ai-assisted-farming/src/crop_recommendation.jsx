@@ -10,6 +10,9 @@ import {
   NotificationManager,
 } from "react-notifications";
 
+const URL = "http://localhost:5000";
+// const URL = "https://sprinkle-foamy-soy.glitch.me";
+
 const contentInput = [
   {
     i: 0,
@@ -158,7 +161,7 @@ class Crop_recommendation extends Component {
         "eyJraWQiOiIyMDIxMDgxOTA4MTciLCJhbGciOiJSUzI1NiJ9.eyJpYW1faWQiOiJJQk1pZC02NjEwMDI1TUlEIiwiaWQiOiJJQk1pZC02NjEwMDI1TUlEIiwicmVhbG1pZCI6IklCTWlkIiwianRpIjoiMGQ1MWY4NWUtNmIyNC00ZGVlLWJhMjUtYzM1ZDViOTY2ZTViIiwiaWRlbnRpZmllciI6IjY2MTAwMjVNSUQiLCJnaXZlbl9uYW1lIjoiQ2hhbmRyYXByYWJodSIsImZhbWlseV9uYW1lIjoiQyIsIm5hbWUiOiJDaGFuZHJhcHJhYmh1IEMiLCJlbWFpbCI6InNlYzE5aXQwODdAc2FpcmFtdGFwLmVkdS5pbiIsInN1YiI6InNlYzE5aXQwODdAc2FpcmFtdGFwLmVkdS5pbiIsImF1dGhuIjp7InN1YiI6InNlYzE5aXQwODdAc2FpcmFtdGFwLmVkdS5pbiIsImlhbV9pZCI6IklCTWlkLTY2MTAwMjVNSUQiLCJuYW1lIjoiQ2hhbmRyYXByYWJodSBDIiwiZ2l2ZW5fbmFtZSI6IkNoYW5kcmFwcmFiaHUiLCJmYW1pbHlfbmFtZSI6IkMiLCJlbWFpbCI6InNlYzE5aXQwODdAc2FpcmFtdGFwLmVkdS5pbiJ9LCJhY2NvdW50Ijp7ImJvdW5kYXJ5IjoiZ2xvYmFsIiwidmFsaWQiOnRydWUsImJzcyI6ImJlYTFjZmZmYTZhYzQyZjBhNGJiNGM4N2IxZjMzYjI3IiwiZnJvemVuIjp0cnVlfSwiaWF0IjoxNjI5ODc4NDA3LCJleHAiOjE2Mjk4ODIwMDcsImlzcyI6Imh0dHBzOi8vaWFtLmNsb3VkLmlibS5jb20vaWRlbnRpdHkiLCJncmFudF90eXBlIjoidXJuOmlibTpwYXJhbXM6b2F1dGg6Z3JhbnQtdHlwZTphcGlrZXkiLCJzY29wZSI6ImlibSBvcGVuaWQiLCJjbGllbnRfaWQiOiJkZWZhdWx0IiwiYWNyIjoxLCJhbXIiOlsicHdkIl19.crNGXMRkuIioYW-HA_FW__QFtPOOpVONLBOss9OcBiPMh7Xi0hIoNM44ZE8wzFEsisaf5zSvygFCfa8v091sHE2kzIimBWefSRZQIGNDdcWEO59V-BnC4--5X0lV8f5B2rMrYNlemOugEiUOwc01hG43SvrGWQWjKD-SsClLXZH5Hk0jweBuxCYT3iSNmbr-FqqWpBv7deC1KsJYBUcht7qZ08K4H5N_z9qlgv4yj-tKqFiEIwCuSG-X1mB53bQ6LzF_SS9zDS3XWk4mD6SlnxI_3jV0yUGODZ_kgdmo0dfXwbPRmjTSps5p7akCfrtaagL8CpGV-HxcaKNIDjbUZQ";
       console.log(mltoken);
       axios
-        .post("http://localhost:5000/cors", payload_scoring)
+        .post(URL + "/cors", payload_scoring)
         .then((res) => {
           console.log(res);
           console.log(ansMap[res.data[0]]);
