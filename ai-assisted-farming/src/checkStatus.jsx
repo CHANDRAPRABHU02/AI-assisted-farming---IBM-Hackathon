@@ -3,8 +3,8 @@ import Loader from "./asserts/loaderGif1.gif";
 import Active from "./asserts/online.gif";
 import axios from "axios";
 
-const URL = "http://localhost:5000";
-// const URL = "https://sprinkle-foamy-soy.glitch.me";
+// const URL = "http://localhost:5000";
+const URL = "https://sprinkle-foamy-soy.glitch.me";
 
 class CheckStatus extends Component {
   state = { statusFlag: null };

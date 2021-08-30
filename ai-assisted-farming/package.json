@@ -1,5 +1,6 @@
 {
-  "homepage": "https://chandraprabhu02.github.io/AI-assisted-farming---IBM-Hackathon/ai-assisted-farming",
+  "name": "ai-assisted-farming",
+  "homepage": "https://chandraprabhu02.github.io/AI-assisted-farming---IBM-Hackathon/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

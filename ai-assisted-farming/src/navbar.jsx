@@ -21,7 +21,7 @@ class Navbar_custom extends Component {
                 <Link to="/status" className="nav-link">
                   Server Status
                 </Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
+                <Nav.Link href="/crop_recommendation">Pricing</Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link href="#deets">More deets</Nav.Link>
