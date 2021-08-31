@@ -17,6 +17,11 @@ class App extends Component {
         <div className="container-fluid">
           <Route path="/" exact component={Homepage} />
           <Route
+            path="/AI-assisted-farming---IBM-Hackathon"
+            exact
+            component={Homepage}
+          />
+          <Route
             path="/crop_recommendation"
             exact
             component={Crop_recommendation}
