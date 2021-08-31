@@ -4,6 +4,8 @@ import Crop_recommendation from "./crop_recommendation";
 import CheckStatus from "./checkStatus";
 import Homepage from "./homepage";
 import Navbar from "./navbar";
+import About from "./about";
+
 class App extends Component {
   state = {};
   render() {
@@ -20,6 +22,7 @@ class App extends Component {
             component={Crop_recommendation}
           />
           <Route path="/status" exact component={CheckStatus} />
+          <Route path="/about" exact component={About} />
         </div>
       </Router>
     );
