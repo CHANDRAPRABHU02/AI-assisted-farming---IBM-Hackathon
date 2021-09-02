@@ -5,6 +5,7 @@ import CheckStatus from "./checkStatus";
 import Homepage from "./homepage";
 import Navbar from "./navbar";
 import About from "./about";
+import SpecificCrop from "./specificCrop";
 
 class App extends Component {
   state = {};
@@ -27,6 +28,7 @@ class App extends Component {
             component={Crop_recommendation}
           />
           <Route path="/status" exact component={CheckStatus} />
+          <Route path="/specific-crop" exact component={SpecificCrop} />
           <Route path="/about" exact component={About} />
         </div>
       </Router>

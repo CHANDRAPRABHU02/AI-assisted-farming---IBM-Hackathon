@@ -18,6 +18,9 @@ class Navbar_custom extends Component {
                 <Link to="/crop_recommendation" className="nav-link">
                   Crop - recommendation
                 </Link>
+                <Link to="/specific-crop" className="nav-link">
+                  Crop-specific
+                </Link>
                 <Link to="/status" className="nav-link">
                   Server Status
                 </Link>
